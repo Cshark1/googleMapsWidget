@@ -16,7 +16,7 @@
 <body class="antialiased bg-gray-900 text-white dark">
     <div class="m-auto max-w-4xl">
         <x-header />
-        <div class="h-4"></div>
+        <div class="h-36"></div>
         {{ $slot }}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
