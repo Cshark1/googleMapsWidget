@@ -6,12 +6,7 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-    <!-- Styles -->
-    @vite('resources/css/app.css')
+    <x-imports-header />
 </head>
 <body class="antialiased bg-gray-900 text-white dark">
     <div class="m-auto max-w-4xl">
@@ -19,6 +14,6 @@
         <div class="h-36"></div>
         {{ $slot }}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+    <x-imports-footer />
 </body>
 </html>
