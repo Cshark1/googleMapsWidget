@@ -14,6 +14,10 @@ return [
     |
     */
 
+    'googlePlaces' => [
+        'key' => env('PLACES_API_KEY'),
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
